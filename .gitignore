@@ -1,0 +1,29 @@
+Shard-backups/
+fp-info-cache
+
+# Esegui un backup del file originale del progetto
+*.bak
+
+# File di log e temporanei
+*.log
+*.tmp
+
+# File di cache
+*.kicad_pcb-bak
+*.kicad_prl
+
+# File di salvataggio automatico (autosave)
+*.autosave
+
+# File generati automaticamente da KiCad
+*-cache.lib
+*-rescue.lib
+
+# File di gestione delle librerie e dei simboli che possono essere ricreati
+*.sch-bak
+*.cmp
+*.net
+
+# File di progetto specifici dell'utente
+*.pro.user
+*.pro.bak
