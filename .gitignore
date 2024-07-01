@@ -27,5 +27,6 @@ fp-info-cache
 # File di progetto specifici dell'utente
 *.pro.user
 *.pro.bak
+*.lck
 
 _autosave-Shard.kicad_sch
