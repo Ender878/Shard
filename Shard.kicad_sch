@@ -4460,12 +4460,24 @@
 		(uuid "60883331-eaa4-4f8c-89a8-cc41d34f0927")
 	)
 	(no_connect
+		(at 359.41 105.41)
+		(uuid "675a0c3f-3fc8-4e46-943e-96d092cb7d9a")
+	)
+	(no_connect
+		(at 359.41 107.95)
+		(uuid "6d19f681-0c3b-4ef0-abe4-05b7fa04b235")
+	)
+	(no_connect
 		(at 359.41 74.93)
 		(uuid "8dc863ac-cebd-4051-8c61-e77809295d18")
 	)
 	(no_connect
 		(at 359.41 82.55)
 		(uuid "9bd99b31-ddbc-43ac-9c5a-3dc70dcd52ad")
+	)
+	(no_connect
+		(at 313.69 59.69)
+		(uuid "c4ce24ce-0fab-4b19-97b9-10aad921a80c")
 	)
 	(no_connect
 		(at 49.53 97.79)
@@ -4873,16 +4885,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 105.41) (xy 367.03 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3816eb10-3112-47c4-8b14-d1478666ff55")
-	)
-	(wire
-		(pts
 			(xy 44.45 190.5) (xy 44.45 191.77)
 		)
 		(stroke
@@ -5220,16 +5222,6 @@
 			(type default)
 		)
 		(uuid "7213a25b-3cb6-412e-85df-68c0f9e6d0f0")
-	)
-	(wire
-		(pts
-			(xy 359.41 107.95) (xy 367.03 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b3221c-38a2-4494-b179-2e7051c5e3ff")
 	)
 	(wire
 		(pts
@@ -5803,16 +5795,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 59.69) (xy 313.69 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cff80631-1290-44c9-8aa5-d116318721e2")
-	)
-	(wire
-		(pts
 			(xy 137.16 33.02) (xy 144.78 33.02)
 		)
 		(stroke
@@ -6341,16 +6323,16 @@
 		)
 		(uuid "1f84a62a-8c97-4c19-906c-cab58bb8ab93")
 	)
-	(label "3"
-		(at 306.07 59.69 180)
+	(label "VDD_SPI"
+		(at 350.52 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "26153960-ad82-4a3d-9de5-0c24caf24239")
+		(uuid "2404349f-2fca-4dd1-b040-b4f5a31d720a")
 	)
 	(label "VDD3P3"
 		(at 107.95 166.37 0)
@@ -6461,17 +6443,6 @@
 			(justify right bottom)
 		)
 		(uuid "448e697a-02c5-4c74-94b2-961e921c22ab")
-	)
-	(label "46"
-		(at 367.03 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c9ec3af-313c-4ca7-8d61-e4b3f010c70d")
 	)
 	(label "10"
 		(at 306.07 77.47 180)
@@ -6626,17 +6597,6 @@
 			(justify left bottom)
 		)
 		(uuid "8a645d26-78bd-4194-9cbb-4917e416a8cc")
-	)
-	(label "45"
-		(at 367.03 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e784ba5-d90a-44ae-ae18-47e66f3220e4")
 	)
 	(label "SPICS0"
 		(at 379.73 59.69 0)
@@ -8636,7 +8596,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C2913192"
+		(property "REF" "C2913194"
 			(at 336.55 82.55 0)
 			(effects
 				(font
