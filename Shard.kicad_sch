@@ -5070,6 +5070,12 @@
 		(uuid "e78d174a-f0ec-435b-8a49-8cba4017791c")
 	)
 	(junction
+		(at 77.47 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e88dbeeb-6403-468f-9b0d-7268a2fea1da")
+	)
+	(junction
 		(at 25.4 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5096,10 +5102,6 @@
 		(uuid "0acc490c-1cd3-4ab2-a3b2-0007c556639d")
 	)
 	(no_connect
-		(at 76.2 135.89)
-		(uuid "261f2908-9fe9-4f57-9d63-de5616c520b4")
-	)
-	(no_connect
 		(at 195.58 80.01)
 		(uuid "6004f01f-ab3d-4d50-8115-d60a3ab03032")
 	)
@@ -5114,6 +5116,10 @@
 	(no_connect
 		(at 195.58 92.71)
 		(uuid "6d19f681-0c3b-4ef0-abe4-05b7fa04b235")
+	)
+	(no_connect
+		(at 195.58 36.83)
+		(uuid "779465c7-f4fd-4358-9310-825a5a87fee6")
 	)
 	(no_connect
 		(at 195.58 59.69)
@@ -5623,6 +5629,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 123.19) (xy 77.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42dafb6b-fd8b-4d58-bd11-ba22257845e3")
+	)
+	(wire
+		(pts
 			(xy 144.78 57.15) (xy 149.86 57.15)
 		)
 		(stroke
@@ -5850,6 +5866,16 @@
 			(type default)
 		)
 		(uuid "614dd793-f898-4232-a5bb-8ecd51618643")
+	)
+	(wire
+		(pts
+			(xy 83.82 135.89) (xy 85.09 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626899a7-8734-4010-993e-a1fcb8d2a138")
 	)
 	(wire
 		(pts
@@ -6613,6 +6639,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 125.73) (xy 76.2 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8274da-8901-4c67-beda-4682a988685d")
+	)
+	(wire
+		(pts
 			(xy 256.54 81.28) (xy 256.54 91.44)
 		)
 		(stroke
@@ -6820,16 +6856,6 @@
 			(type default)
 		)
 		(uuid "e15e7ffa-a619-4e89-843c-0216847cd059")
-	)
-	(wire
-		(pts
-			(xy 195.58 36.83) (xy 212.09 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1aed219-4817-43c1-8190-c4899939ed82")
 	)
 	(wire
 		(pts
@@ -7271,6 +7297,17 @@
 		)
 		(uuid "df8d0267-7aa6-4407-a0c3-fa2f75d461d4")
 	)
+	(label "D_P"
+		(at 50.8 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "019317d7-a9fb-483f-a3d6-493fe0651147")
+	)
 	(label "2"
 		(at 144.78 41.91 180)
 		(fields_autoplaced yes)
@@ -7316,7 +7353,7 @@
 		(uuid "0997d80f-6f0f-4a79-8f72-23dad9c4967b")
 	)
 	(label "RESET"
-		(at 76.2 130.81 0)
+		(at 76.2 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7778,7 +7815,7 @@
 		(uuid "67ce859c-40bd-4ef7-a6d3-1b0cc675775e")
 	)
 	(label "RX"
-		(at 76.2 128.27 0)
+		(at 76.2 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7787,6 +7824,17 @@
 			(justify left bottom)
 		)
 		(uuid "6dac5150-6bf7-45e5-ab10-1852a8867473")
+	)
+	(label "D_N"
+		(at 50.8 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e7bff94-137b-4967-b683-90a61ceb6841")
 	)
 	(label "D+"
 		(at 72.39 85.09 0)
@@ -7798,17 +7846,6 @@
 			(justify left bottom)
 		)
 		(uuid "71502b35-c6cf-414d-9082-668cb2c72745")
-	)
-	(label "SPICS1"
-		(at 212.09 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73ca6f3b-2b40-4512-8363-7cd45d552aa0")
 	)
 	(label "18"
 		(at 144.78 77.47 180)
@@ -8086,7 +8123,7 @@
 		(uuid "b9ac1889-5677-4471-8b03-f8ee009bca5d")
 	)
 	(label "TX"
-		(at 76.2 125.73 0)
+		(at 76.2 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8108,7 +8145,7 @@
 		(uuid "c0e04789-b516-446c-9010-7b50591d1af4")
 	)
 	(label "VIN"
-		(at 83.82 133.35 0)
+		(at 85.09 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9194,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 38.1 128.27 0)
 			(effects
 				(font
@@ -9976,7 +10013,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 80.01 133.35 180)
+		(at 80.01 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9984,7 +10021,7 @@
 		(dnp no)
 		(uuid "446847e8-2176-4ed1-9639-42b743c98de4")
 		(property "Reference" "D2"
-			(at 80.01 135.89 0)
+			(at 80.01 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,7 +10029,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 86.106 135.382 0)
+			(at 86.106 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +10037,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 80.01 133.35 0)
+			(at 80.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +10046,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 133.35 0)
+			(at 80.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +10055,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 80.01 133.35 0)
+			(at 80.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +10064,7 @@
 			)
 		)
 		(property "REF" "C8678"
-			(at 80.01 133.35 0)
+			(at 80.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 29.21 125.73 0)
 			(effects
 				(font
@@ -10455,7 +10492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 71.12 128.27 0)
 			(effects
 				(font
@@ -10786,7 +10823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 263.8552 87.63 0)
 			(effects
 				(font
@@ -10805,6 +10842,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" " C426053"
 			(at 262.89 83.82 0)
 			(effects
 				(font
@@ -11559,7 +11605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 251.1552 87.63 0)
 			(effects
 				(font
@@ -11578,6 +11624,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" " C426053"
 			(at 250.19 83.82 0)
 			(effects
 				(font
@@ -13741,7 +13796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 62.23 125.73 0)
 			(effects
 				(font
