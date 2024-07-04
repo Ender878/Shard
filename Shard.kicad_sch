@@ -8733,7 +8733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 91.1352 33.02 0)
 			(effects
 				(font
@@ -8760,7 +8760,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C106214"
+		(property "REF" " C5209398"
 			(at 90.17 29.21 0)
 			(effects
 				(font
@@ -9593,7 +9593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 61.9252 184.15 0)
 			(effects
 				(font
@@ -9620,7 +9620,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C93194"
+		(property "REF" " C312124"
 			(at 60.96 180.34 0)
 			(effects
 				(font
@@ -9738,7 +9738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 75.8952 160.02 0)
 			(effects
 				(font
@@ -9765,7 +9765,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C106214"
+		(property "REF" " C5209398"
 			(at 74.93 156.21 0)
 			(effects
 				(font
@@ -9884,7 +9884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 87.3252 160.02 0)
 			(effects
 				(font
@@ -9911,7 +9911,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C93194"
+		(property "REF" " C312124"
 			(at 86.36 156.21 0)
 			(effects
 				(font
@@ -11251,7 +11251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 40.3352 160.02 0)
 			(effects
 				(font
@@ -11278,7 +11278,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C77500"
+		(property "REF" " C312126"
 			(at 39.37 156.21 0)
 			(effects
 				(font
@@ -11750,7 +11750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 26.3652 160.02 0)
 			(effects
 				(font
@@ -11777,7 +11777,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C106214"
+		(property "REF" " C5209398"
 			(at 25.4 156.21 0)
 			(effects
 				(font
@@ -12211,7 +12211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 39.0652 184.15 0)
 			(effects
 				(font
@@ -12238,7 +12238,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C93194"
+		(property "REF" " C312124"
 			(at 38.1 180.34 0)
 			(effects
 				(font
@@ -13220,7 +13220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 26.3652 184.15 0)
 			(effects
 				(font
@@ -13247,7 +13247,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C106214"
+		(property "REF" " C5209398"
 			(at 25.4 180.34 0)
 			(effects
 				(font
@@ -13653,7 +13653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 145.7452 168.91 0)
 			(effects
 				(font
@@ -13680,7 +13680,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C106214"
+		(property "REF" " C5209398"
 			(at 144.78 165.1 0)
 			(effects
 				(font
@@ -13950,7 +13950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 102.5652 160.02 0)
 			(effects
 				(font
@@ -13977,7 +13977,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C93194"
+		(property "REF" " C312124"
 			(at 101.6 156.21 0)
 			(effects
 				(font
@@ -14029,7 +14029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 267.6652 132.08 0)
 			(effects
 				(font
@@ -14056,7 +14056,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C93194"
+		(property "REF" " C312124"
 			(at 266.7 128.27 0)
 			(effects
 				(font
@@ -14490,7 +14490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 241.3 80.518 90)
 			(effects
 				(font
@@ -14517,7 +14517,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C2933536"
+		(property "REF" "C306975"
 			(at 241.3 78.74 90)
 			(effects
 				(font
@@ -14569,7 +14569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 87.3252 184.15 0)
 			(effects
 				(font
@@ -14596,7 +14596,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C93194"
+		(property "REF" " C312124"
 			(at 86.36 180.34 0)
 			(effects
 				(font
@@ -15010,7 +15010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 27.6352 33.02 0)
 			(effects
 				(font
@@ -15037,7 +15037,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C106214"
+		(property "REF" " C5209398"
 			(at 26.67 29.21 0)
 			(effects
 				(font
@@ -15087,7 +15087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
 			(at 229.87 34.29 0)
 			(effects
 				(font
