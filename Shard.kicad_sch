@@ -9738,7 +9738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 75.8952 160.02 0)
 			(effects
 				(font
@@ -9765,7 +9765,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C5209398"
+		(property "REF" " C325464"
 			(at 74.93 156.21 0)
 			(effects
 				(font
@@ -9884,7 +9884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 160.02 0)
 			(effects
 				(font
@@ -9911,7 +9911,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C312124"
+		(property "REF" "C312123"
 			(at 86.36 156.21 0)
 			(effects
 				(font
@@ -10966,7 +10966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 201.93 154.94 0)
 			(effects
 				(font
@@ -10995,7 +10995,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C2843785"
+		(property "REF" "C965555"
 			(at 200.66 147.32 0)
 			(effects
 				(font
@@ -13950,7 +13950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 102.5652 160.02 0)
 			(effects
 				(font
@@ -13977,7 +13977,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" " C312124"
+		(property "REF" "C312123"
 			(at 101.6 156.21 0)
 			(effects
 				(font
