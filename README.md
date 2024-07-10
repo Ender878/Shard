@@ -8,9 +8,10 @@
 
 - 16 MB Flash storage
 - 8 MB RAM
-- WiFI and Bluethoot capabilities
+- WiFi and Bluethoot capabilities
 - Built-in Neopixel RGB LED
 - 21 configurable GPIO pins
+- Up to 16V for external Power supply
 - UART
 
 The board itself is pretty small, 4.6x4.8cm and doesn't have mounting holes unfortunately. It is designed to be an all-feature development board for prototyping.
