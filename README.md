@@ -1,5 +1,7 @@
 # Shard - Custom ESP32 S3 Board :electron:
 
+![Shard](https://github.com/Ender878/Shard/assets/137645292/8fb9883f-d200-447a-a1fa-a96a2ef6d5b1)
+
 *Shard* is an open source *ESP32 S3* board, the first one I ever designed!
 
 ## Core features:
