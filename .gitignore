@@ -30,3 +30,5 @@ fp-info-cache
 *.lck
 
 _autosave-Shard.kicad_sch
+
+*.zip
