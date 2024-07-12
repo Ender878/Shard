@@ -32,3 +32,5 @@ fp-info-cache
 _autosave-Shard.kicad_sch
 
 *.zip
+Renders/
+*.step
