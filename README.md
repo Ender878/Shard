@@ -40,18 +40,11 @@ I first programmed this board using **PlatformIO** and I used this **platformio.
 ~~~ini
 [env:esp32-s3-devkitc-1]
 platform = espressif32
-board = um_pros3
+board = shard
 framework = arduino
-
-board_build.flash_mode = dio
-board_build.flash_size = 16MB
-board_build.partitions = default_16MB.csv
-
-build_flags = 
-    -DCORE_DEBUG_LEVEL=5
 ~~~
 
-I specified the flash size and the flash partition just to make sure everything worked as expected, but the **UM-PROS3** board should be configuring these by default. 
+I made a custom **board** config file that specifies all the board's characteristics. To use it, create a folder called **board** and copy this file in it.
 
 Also, this is the partition I used:
 
