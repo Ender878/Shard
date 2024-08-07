@@ -44,7 +44,7 @@ board = shard
 framework = arduino
 ~~~
 
-I made a custom **board** config file that specifies all the board's characteristics. To use it, create a folder called **board** and copy this file in it.
+I made a custom **board** config file that specifies all the board's characteristics. To use it, create a folder called **boards** and copy [this file](./shard.json) in it.
 
 Also, this is the partition I used:
 
