@@ -35,7 +35,7 @@ To program this board with the **Arduino IDE**, you have to:
 
 ### PlatformIO programming
 
-I first programmed this board using **PlatformIO** and I used this **platformio.ini** file:
+To program this board with **PlatformIO**, you should configure the **platformio.ini** file as follows:
 
 ~~~ini
 [env:esp32-s3-devkitc-1]
@@ -44,7 +44,7 @@ board = shard
 framework = arduino
 ~~~
 
-I made a custom **board** config file for PlatformIO that specifies all the board's specifications. To use it, create a folder called **boards** and copy [this file](./shard.json) in it.
+I made a custom **board** config file for PlatformIO that specifies all the board's specifications. To use it, create a folder called **boards** and copy [this file](./shard.json) under it.
 
 Also, this is the partition I used:
 
