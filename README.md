@@ -33,7 +33,7 @@ To program this board with the **Arduino IDE**, you have to:
 - then select the **UM-PROS3** board 
 - when uploading, follow the steps listed in the **[Uploading](#uploading)** section.
 
-### Programming with PlatformIO
+### Programming with PlatformIO (recommended)
 
 To program this board with **PlatformIO**, you should configure the **platformio.ini** file as follows:
 
