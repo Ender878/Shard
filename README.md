@@ -6,8 +6,8 @@
 
 ## Core features:
 
-- 16 MB Flash storage
-- 8 MB RAM
+- 16MB Flash
+- 8MB RAM
 - WiFi and Bluethoot capabilities
 - Built-in Neopixel RGB LED
 - 21 configurable GPIO pins
