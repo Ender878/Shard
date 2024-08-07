@@ -26,14 +26,14 @@ The board doesn't come with a **USB-UART bridge**, so the firmware uploading req
 - Immediately after you pressed it, press the **BOOT** button and then release the **RESET** button
 - After the code is uploaded, press the **RESET** button again to exit Download Mode, so that the board can execute the code.
 
-### Aruino IDE 2 programming
+### Programming with Arduino IDE 2
 
 To program this board with the **Arduino IDE**, you have to:
 - Install the "esp32" board manager.
 - then select the **UM-PROS3** board 
 - when uploading, follow the steps listed in the **[Uploading](#uploading)** section.
 
-### PlatformIO programming
+### Programming with PlatformIO
 
 To program this board with **PlatformIO**, you should configure the **platformio.ini** file as follows:
 
